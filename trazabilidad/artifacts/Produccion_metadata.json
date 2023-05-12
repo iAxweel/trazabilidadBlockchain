@@ -1,0 +1,181 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccion",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "NuevoResultado",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "DireccionContrato",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DireccionEmpresa",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_idProductoAgricola",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_origenSemillas",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_entornoCrecimiento",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_procesoSiembra",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_codigoIPFS",
+						"type": "string"
+					}
+				],
+				"name": "ResultadosProductoAgricola",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_idProductoAgricola",
+						"type": "string"
+					}
+				],
+				"name": "VisualizarResultados",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_origenSemillas",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_entornoCrecimiento",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_procesoSiembra",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_codigoIPFS",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"trazabilidad/trazabilidad.sol": "Produccion"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"trazabilidad/trazabilidad.sol": {
+			"keccak256": "0xd1ba39f68e5951a5cea4fb4c679c962fa3abfe208186b20fe99368415329278f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://201d910d695c162531a4c5f539665b8963ff51526005e894c42705085412611b",
+				"dweb:/ipfs/QmSyFMYj6F8mov3pWspXdkcSPqM1kDFgdKftyqu6SRBBb6"
+			]
+		}
+	},
+	"version": 1
+}
