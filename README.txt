@@ -1,3 +1,5 @@
+Propuesta de una solución Blockchain para la trazabilidad de productos agrícolas usando la cadena de bloques de Ethereum para la simulación.
+
 REMIX DEFAULT WORKSPACE
 
 Remix default workspace is present when:
